@@ -16,3 +16,7 @@ HTTP Status Code
 
 Install django 
 
+# Start a Django app
+
+- python manage.py startapp <"name of the app">
+- then you will have to add the installed app in the django project you created, in this case is "lesson3". Inside the settings.py under the "INSTALLED_APPS" section, add the "name of the app" you created, in this case it is "hello" 
