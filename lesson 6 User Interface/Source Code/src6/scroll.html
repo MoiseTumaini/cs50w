@@ -3,16 +3,14 @@
     <head>
         <title>Scroll</title>
         <script>
-
             window.onscroll = () => {
-
-                if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
-                    document.querySelector('body').style.background = 'green';
+                if (window.innerHeight + window.scrollY >= document.body.offsetHeight){ // used to determine whether you reached the end of the page 
+                    // this is like on social media, when you reach the end of the page more data is loaded 
+                    document.querySelector('body').style.background = "blue";
                 } else {
                     document.querySelector('body').style.background = 'white';
                 }
-
-            };
+            }
 
         </script>
     </head>
@@ -119,3 +117,13 @@
         <p>100</p>
     </body>
 </html>
+
+<!-- window.onscroll = () => {
+
+                if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
+                    document.querySelector('body').style.background = 'green';
+                } else {
+                    document.querySelector('body').style.background = 'white';
+                }
+
+            }; -->
